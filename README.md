@@ -13,6 +13,18 @@ asteval is a simple and robust evaluator of
 Python expressions and statements, using Python's ast module.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/asteval-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asteval-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/asteval-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/asteval-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/asteval-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/asteval-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asteval/badges/version.svg)](https://anaconda.org/conda-forge/asteval)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asteval/badges/downloads.svg)](https://anaconda.org/conda-forge/asteval)
+
 Installing asteval
 ==================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `asteval` available on your platfo
 ```
 conda search asteval --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/asteval-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asteval-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/asteval-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/asteval-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/asteval-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/asteval-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asteval/badges/version.svg)](https://anaconda.org/conda-forge/asteval)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asteval/badges/downloads.svg)](https://anaconda.org/conda-forge/asteval)
 
 
 Updating asteval-feedstock
