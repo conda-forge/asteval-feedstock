@@ -19,8 +19,13 @@ requirements:
   build:
     - python
     - setuptools
+    - six
+    - numpy
   run:
     - python
+    - setuptools
+    - six
+    - numpy
 
 test:
   imports:
