@@ -16,9 +16,7 @@ Python expressions and statements, using Python's ast module.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/asteval-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asteval-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/asteval-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/asteval-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/asteval-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/asteval-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/asteval-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asteval-feedstock)
 
 Current release info
 ====================
