@@ -1,6 +1,6 @@
 {% set name = "asteval" %}
-{% set version = "0.9.8" %}
-{% set sha256 = "046d31ca4470b1ece52277965674c421337de79950dde6a76fa0d1c57a87278b" %}
+{% set version = "0.9.12" %}
+{% set sha256 = "38f3b0592cae7e7f65adc687e37aad1824a8e518245603a29ec33258277e779b" %}
 
 package:
   name: {{ name|lower }}
@@ -19,8 +19,13 @@ requirements:
   build:
     - python
     - setuptools
+    - six
+    - numpy
   run:
     - python
+    - setuptools
+    - six
+    - numpy
 
 test:
   imports:
@@ -34,7 +39,7 @@ about:
 
   # The remaining entries in this section are optional, but recommended
   description: |
-    asteval is a simple and robust evaluator of 
+    asteval is a simple and robust evaluator of
     Python expressions and statements, using Python's ast module.
   doc_url: http://newville.github.io/asteval/
   dev_url: https://github.com/newville/asteval
