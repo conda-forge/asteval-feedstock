@@ -16,14 +16,15 @@ Python expressions and statements, using Python's ast module.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/asteval-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asteval-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/asteval-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/asteval-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/asteval-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/asteval-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/asteval-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/asteval-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asteval/badges/version.svg)](https://anaconda.org/conda-forge/asteval)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asteval/badges/downloads.svg)](https://anaconda.org/conda-forge/asteval)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-asteval-green.svg)](https://anaconda.org/conda-forge/asteval) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/asteval.svg)](https://anaconda.org/conda-forge/asteval) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/asteval.svg)](https://anaconda.org/conda-forge/asteval) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/asteval.svg)](https://anaconda.org/conda-forge/asteval) |
 
 Installing asteval
 ==================
