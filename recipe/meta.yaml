@@ -1,6 +1,6 @@
 {% set name = "asteval" %}
-{% set version = "0.9.16" %}
-{% set sha256 = "bc71bb4f9ad3ef8ccdc3b9a711e094fb00d768172cb7ff9a15773673aac9e0cc" %}
+{% set version = "0.9.21" %}
+{% set sha256 = "ee14ba2211cda1c76114e3e7b552cdd57e940309203d5f4106e6d6f2c2346a2e" %}
 
 package:
   name: {{ name|lower }}
@@ -18,16 +18,14 @@ build:
 
 requirements:
   host:
+    - python >=3.6
     - pip
-    - python
     - setuptools
-    - six
-    - numpy
   run:
-    - python
+    - python >=3.6
+    - pip
     - setuptools
-    - six
-    - numpy
+    - numpy >=1.12
 
 test:
   imports:
@@ -49,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - souravsingh
+    - newville
