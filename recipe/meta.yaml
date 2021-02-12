@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/newville/asteval
-  license: BSD
+  license: MIT
   license_file: LICENSE
   summary: 'Simple and robust expressions evaluator for Python'
 
