@@ -20,11 +20,11 @@ requirements:
   host:
     - python >=3.6
     - pip
-    - setuptools
+    - setuptools-scm
   run:
     - python >=3.6
     - pip
-    - setuptools
+    - setuptools-scm
     - numpy >=1.12
 
 test:
