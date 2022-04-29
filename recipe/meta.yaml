@@ -1,36 +1,37 @@
 {% set name = "asteval" %}
-{% set version = "0.9.23" %}
-{% set sha256 = "f5096a924b1d2f147e70327245d95fc8f534dbe94277b6828ce2a8c049d3a438" %}
+{% set version = "0.9.26" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 36125613ec21ed3e33e370ca8960a1f1e8a2324d78a8016bfa5ad76f1e16ef05
 
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python >=3.6
     - pip
-    - setuptools
+    - setuptools-scm
   run:
     - python >=3.6
     - pip
-    - setuptools
+    - setuptools-scm
     - numpy >=1.12
-
 test:
   imports:
     - asteval
-
+  commands:
+    - pip check
+  requires:
+    - pip
+   
 about:
   home: https://github.com/newville/asteval
   license: MIT
