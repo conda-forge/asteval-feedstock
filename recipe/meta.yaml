@@ -1,5 +1,5 @@
 {% set name = "asteval" %}
-{% set version = "0.9.26" %}
+{% set version = "0.9.27" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 36125613ec21ed3e33e370ca8960a1f1e8a2324d78a8016bfa5ad76f1e16ef05
+  sha256: de838c33aed4c9bb25737eadbb7d1edaaf875e2bab505cc079f1a4b35de03e47
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ test:
     - pip check
   requires:
     - pip
-   
+
 about:
   home: https://github.com/newville/asteval
   license: MIT
