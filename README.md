@@ -1,11 +1,11 @@
-About asteval
-=============
+About asteval-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asteval-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/newville/asteval
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asteval-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple and robust expressions evaluator for Python
 
