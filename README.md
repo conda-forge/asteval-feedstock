@@ -3,15 +3,15 @@ About asteval-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asteval-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/newville/asteval
+Home: https://github.com/lmfit/asteval
 
 Package license: MIT
 
 Summary: Simple and robust expressions evaluator for Python
 
-Development: https://github.com/newville/asteval
+Development: https://github.com/lmfit/asteval
 
-Documentation: http://newville.github.io/asteval/
+Documentation: https://lmfit.github.io/asteval/
 
 asteval is a simple and robust evaluator of
 Python expressions and statements, using Python's ast module.
