@@ -1,5 +1,5 @@
 {% set name = "asteval" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 729fa010511957afcbdbadb0304da09cef6904c145b6901e917afac2dd5668a1
+  sha256: 7175134331726df0e1569f4ab5fa59266192cf1b365db0ff463c978842075cbb
 
 build:
   noarch: python
