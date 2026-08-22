@@ -1,5 +1,5 @@
 {% set name = "asteval" %}
-{% set version = "1.0.9" %}
+{% set version = "1.0.10" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4f7323d63d9fbf89d7e1d5f8bb59b6c093970c15bb5926e6e67d0195858aa230
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 46a4ed13cc2e4a29a21418f89dedd57db70d98eb96db0fb4c441d4edb2f5afed
 
 build:
   noarch: python
@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools-scm
